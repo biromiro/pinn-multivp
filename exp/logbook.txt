@@ -1,0 +1,5 @@
+15/03 - checked normalization techniques by looking at each of the variables used as inputs
+19/03 - verified A/A0 bounds for test set are significantly different, tried log normalization after abs on both A/A0 and B.
+        found negative values on A/A0 - makes no physical sense
+        removed outlier for A/A0 from train set
+        experimented with curriculum learning/staged learning for PiNN
