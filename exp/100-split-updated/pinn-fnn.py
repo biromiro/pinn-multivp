@@ -443,7 +443,7 @@ test_loader = DataLoader(test_dataset, batch_size=32,
 
 # create criterion with smooth l1 loss
 criterion = CustomCriterion()
-optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=1e-5)
 # add reduce learning rate on plateau
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=scheduler_factor, patience=scheduler_patience, verbose=True, threshold=scheduler_threshold)
