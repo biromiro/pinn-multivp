@@ -4,17 +4,7 @@ This repository contains the source code and additional resources for the paper 
 
 ## Abstract
 
-Space weather refers to the dynamic conditions in the solar system, particularly the interactions between the solar wind --- a stream of charged particles emitted by the Sun --- and the Earth's magnetic field and atmosphere. Accurate space weather forecasting is crucial for mitigating potential impacts on satellite operations, communication systems, power grids, and astronaut safety. However, existing models like MULTI-VP require substantial computational resources. This paper proposes a Physics-Informed Neural Network (PiNN) as a faster yet accurate alternative that respects physical laws. PiNNs blend physics and data-driven techniques for rapid and reliable forecasts. Our studies show that PiNNs can reduce computation times and deliver forecasts comparable to MULTI-VP, offering an expedited and dependable solar wind forecasting approach.
-
-## Installation
-
-To run the code provided in this repository, please follow these installation steps:
-
-```bash
-git clone https://github.com/biromiro/pi-multivp
-cd src
-pip install -r requirements.txt
-```
+Space weather refers to the dynamic conditions in the solar system, particularly the interactions between the solar wind - a stream of charged particles emitted by the Sun - and the Earth's magnetic field and atmosphere. Accurate space weather forecasting is crucial for mitigating potential impacts on satellite operations, communication systems, power grids, and astronaut safety. However, existing models like MULTI-VP require substantial computational resources. This paper proposes a Physics-Informed Neural Network (PiNN) as a faster yet accurate alternative that respects physical laws. PiNNs blend physics and data-driven techniques for rapid and reliable forecasts. Our studies show that PiNNs can reduce computation times and deliver forecasts comparable to MULTI-VP, offering an expedited and dependable solar wind forecasting approach.
 
 ## Data
 
