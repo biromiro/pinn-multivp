@@ -1,6 +1,6 @@
 # Leveraging Physics-Informed Neural Networks as Solar Wind Forecasting Models
 
-This repository contains the source code and additional resources for the paper "Leveraging Physics-Informed Neural Networks as Solar Wind Forecasting Models". The paper discusses the challenges of solar wind forecasting and the application of Physics-Informed Neural Networks (PiNNs) to improve prediction accuracy and computational efficiency.
+This repository contains the source code and additional resources for the paper ["Leveraging Physics-Informed Neural Networks as Solar Wind Forecasting Models"](https://www.esann.org/sites/default/files/proceedings/2024/ES2024-110.pdf). The paper discusses the challenges of solar wind forecasting and the application of Physics-Informed Neural Networks (PiNNs) to improve prediction accuracy and computational efficiency.
 
 ## Abstract
 
